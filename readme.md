@@ -12,13 +12,6 @@ Create an API key inside MongoDB Atlas
 
 ## 2. Create a the "terraform.tfvars" file and copy the following 
 
-
-You need to change the following :
-- ATLAS_PRIVATE_KEY
-- ATLAS_PRIVATE_KEY 
-- ATLAS_PROJECT_ID 
-- Define DATABASE_USERNAME and DATABASE_PASSWORD
-
 ```
 public_key = "ATLAS_PRIVATE_KEY"
 private_key  = "ATLAS_PRIVATE_KEY"
@@ -31,6 +24,12 @@ mongo_db_major_version   	= “4.4”
 mongodb_atlas_database_username = "DATABASE_USERNAME"
 mongodb_atlas_database_user_password = "DATABASE_PASSWORD"
 ```
+
+You need to change the following :
+- ATLAS_PRIVATE_KEY
+- ATLAS_PRIVATE_KEY 
+- ATLAS_PROJECT_ID 
+- Define DATABASE_USERNAME and DATABASE_PASSWORD
 
 You can also change the cluster <strong>region, provider, instance size, backups enabled, mongodb version</strong> etc or keep the same ones
 
