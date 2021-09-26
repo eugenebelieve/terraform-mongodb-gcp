@@ -2,7 +2,7 @@
 
 
 # Deploy MongoDB Clusters on GCP with Terraform
-Deploying, replicating, sharding MongoDB Clusters on Atlas with the help of Terraform
+You can easily deploy, replicat, shard MongoDB Clusters on Atlas with the help of Terraform
 
 
 ## Create a Public and Private API Key on MongoDB Atlas
