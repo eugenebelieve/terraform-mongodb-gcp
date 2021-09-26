@@ -5,6 +5,7 @@
 You can easily deploy, replicat, shard MongoDB Clusters on Atlas with the help of Terraform
 
 
+
 ## 1. Create a Public and Private API Key on MongoDB Atlas
 
 Create an API key inside MongoDB Atlas
