@@ -93,7 +93,7 @@ You can :
 
 (Full List of Commands on Terraform : https://registry.terraform.io/providers/mongodb/mongodbatlas/latest/docs/resources/cluster)
 
-## 4. Create the “variables.tf” file with the following content:
+## 4. Create the “variables.tf” file with the following description content:
 
 ```
 variable "public_key" {
