@@ -21,8 +21,8 @@ atlas_provider_name = “GCP”
 atlas_provider_instance_size_name = “M10"
 auto_scaling_disk_gb_enabled = true
 mongo_db_major_version   	= “4.4”
-mongodb_atlas_database_username = "DATABASE_USERNAME"
-mongodb_atlas_database_user_password = "DATABASE_PASSWORD"
+mongodb_atlas_database_username = "NEW_DATABASE_USERNAME"
+mongodb_atlas_database_user_password = "NEW_DATABASE_PASSWORD"
 ```
 
 You need to change the following :
