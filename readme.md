@@ -85,8 +85,14 @@ resource "mongodbatlas_database_user" "_NAME_" {
  }
 }
 ```
-You can also change the number of <strong>shards</strong> for <strong>Horiztonal Scaling</strong> <br />
-and the <strong>replication factor</strong> for <strong>High Availability</strong>
+You can : 
+- Create new users: https://registry.terraform.io/providers/mongodb/mongodbatlas/latest/docs/resources/database_user
+- Change the number of <strong>shards</strong> for <strong>Horiztonal Scaling</strong> <br />
+- Set the <strong>replication factor</strong>
+
+Full List of Commands on Terraform : https://registry.terraform.io/providers/mongodb/mongodbatlas/latest/docs/resources/cluster
+
+For more information ab
 
 ## 4. Create the “variables.tf” file with the following content:
 
