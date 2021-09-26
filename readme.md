@@ -35,6 +35,8 @@ You can also change the cluster <strong>region, provider, instance size, backups
 
 ## 3. Then create <strong>“main.tf”</strong> file and change all “\_NAME_” to your own
 
+You need to change the following : _NAME_
+
 ```
 terraform {
  required_providers {
