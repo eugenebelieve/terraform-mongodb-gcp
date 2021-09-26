@@ -5,18 +5,12 @@
 Deploying, replicating, sharding MongoDB Clusters on Atlas with the help of Terraform
 
 
-## Installing Terraform
+## Create a Public and Private API Key on MongoDB Atlas
 
-```
-brew install terraform
-```
-
- Inside Atlas create an API with public and private keys 
-
+Create an API key inside MongoDB Atlas
 
 ## Create a the "terraform.tfvars" file and copy the following 
 
-Create an API key inside MongoDB Atlas
 
 You need to change the following :
 - ATLAS_PRIVATE_KEY
