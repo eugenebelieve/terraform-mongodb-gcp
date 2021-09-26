@@ -1,4 +1,4 @@
-<img src="https://upload.wikimedia.org/wikipedia/commons/0/04/Terraform_Logo.svg" alt="dashboard" width="800">
+<img src="https://miro.medium.com/max/1200/1*7olNOISjFpXVL5kkAGF-Iw.png" alt="dashboard" width="800">
 
 
 # Deploy MongoDB Clusters with Terraform
