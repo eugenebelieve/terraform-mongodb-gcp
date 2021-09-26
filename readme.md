@@ -1,15 +1,15 @@
 <img src="https://miro.medium.com/max/1200/1*7olNOISjFpXVL5kkAGF-Iw.png" alt="dashboard" width="800">
 
 
-# Deploy MongoDB Clusters on GCP with Terraform
+# 1. Deploy MongoDB Clusters on GCP with Terraform
 You can easily deploy, replicat, shard MongoDB Clusters on Atlas with the help of Terraform
 
 
-## Create a Public and Private API Key on MongoDB Atlas
+## 2. Create a Public and Private API Key on MongoDB Atlas
 
 Create an API key inside MongoDB Atlas
 
-## Create a the "terraform.tfvars" file and copy the following 
+## 3. Create a the "terraform.tfvars" file and copy the following 
 
 
 You need to change the following :
@@ -33,7 +33,7 @@ mongodb_atlas_database_user_password = "DATABASE_PASSWORD"
 
 You can also change the cluster <strong>region, provider, instance size, backups enabled, mongodb version</strong> etc or keep the same ones
 
-## Then create <strong>“main.tf”</strong> file and change all “\_NAME_” to your own
+## 5. Then create <strong>“main.tf”</strong> file and change all “\_NAME_” to your own
 
 ```
 terraform {
@@ -86,7 +86,7 @@ resource "mongodbatlas_database_user" "_NAME_" {
 You can also change the number of <strong>shards</strong> for <strong>Horiztonal Scaling</strong> <br />
 and the <strong>replication factor</strong> for <strong>High Availability</strong>
 
-## Create the “variables.tf” file with the following content:
+## 6. Create the “variables.tf” file with the following content:
 
 ```
 variable "public_key" {
