@@ -1,7 +1,7 @@
 <img src="https://miro.medium.com/max/1200/1*7olNOISjFpXVL5kkAGF-Iw.png" alt="dashboard" width="800">
 
 
-# Deploy MongoDB Clusters with Terraform
+# Deploy MongoDB Clusters on GCP with Terraform
 Deploying, replicating, sharding MongoDB Clusters on Atlas with the help of Terraform
 
 
