@@ -67,7 +67,7 @@ resource "mongodbatlas_cluster" "_NAME_" {
  }
 
 output "connection_strings" {
-value = mongodbatlas_cluster.eugene-terraform.connection_strings
+value = mongodbatlas_cluster.test-terraform.connection_strings
 }
 
 resource "mongodbatlas_database_user" "_NAME_" {
